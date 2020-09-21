@@ -48,3 +48,15 @@
     padding-top: 8%;
     padding-right: 5%;
 }
+.foot{
+    margin-bottom: 2%;
+    height: 80px;
+    box-shadow: 5px 5px 15px rgb(54, 116, 93);
+    margin-top: 2%;
+    position: sticky;
+    text-align: right;
+    font-size: 30px;
+}
+.footWords{
+    padding: 2%;
+}
