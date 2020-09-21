@@ -1,3 +1,7 @@
+
+*{
+    font-family: Constantia;
+}
 /* background image */
 .bkg{
     background-image: url(images/greenMarble.jpg);
