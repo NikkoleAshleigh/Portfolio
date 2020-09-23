@@ -1,0 +1,56 @@
+.card{
+    margin-bottom: 5%;
+}
+/* grid for project tiles */
+.tile-group{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10%;
+    grid-template-areas:
+    "tile1 tile2 tile3"
+    "tile4 tile5 tile6"
+    
+}
+/* tile images */
+.tile1{
+    grid-area: tile1;
+    text-align: center;
+}
+.tile2{
+    grid-area: tile2;
+    text-align: center;
+}
+.tile3{
+    grid-area: tile3;
+    text-align: center;
+}
+.tile4{
+    grid-area: tile4;
+    text-align: center;
+}
+.tile5{
+    grid-area: tile5;
+    text-align: center;
+}
+.tile6{
+    grid-area: tile6;
+    text-align: center;
+}
+.img-text{
+    background-color:  rgb(77, 207, 164);
+    position: relative;
+    bottom: 15%;
+}
+.foot{
+    margin-bottom: 2%;
+    height: 80px;
+    box-shadow: 5px 5px 15px rgb(54, 116, 93);
+    margin-top: 2%;
+    text-align: right;
+    font-size: 30px;
+    position: sticky;
+}
+.footWords{
+    padding: 2%;
+}
